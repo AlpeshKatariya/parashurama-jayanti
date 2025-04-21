@@ -4,7 +4,7 @@ if (isset($_POST['username']) && isset($_FILES['userimage'])) {
     $image = $_FILES['userimage'];
 
     // Image path setup
-    $templatePath = 'template.jpg';
+    $templatePath = 'template.jpg'; 
     $outputDir = 'generated/';
     $outputFilename = uniqid() . '.jpg';
     $outputPath = $outputDir . $outputFilename;
